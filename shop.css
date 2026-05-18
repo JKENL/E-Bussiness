@@ -1,7 +1,7 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 
-/*===== VARIABLES =====*/
+
 :root{
   --font-medium: 500;
   --font-semi-bold: 600;
@@ -25,7 +25,7 @@
   --mb-4: 2rem;
 }
 
-/*===== BASE =====*/
+
 *{
   margin: 0;
   padding: 0;
@@ -66,7 +66,7 @@ img{
     color: black;
     font-weight: 600;
 }
-/*===== LAYOUT =====*/
+
 .container{
   max-width: 1100px;
   margin: auto;
@@ -84,7 +84,7 @@ img{
   margin-bottom: var(--mb-4);
 }
 
-/*===== HEADER =====*/
+
 .header{
   width: 100%;
   position: fixed;
@@ -126,7 +126,7 @@ img{
   color: var(--dark-light);
 }
 
-/*===== SHOP =====*/
+
 .shop{
   padding-top: 8rem;
 }
@@ -137,7 +137,7 @@ img{
   gap: 2rem;
 }
 
-/* CARD */
+
 .shop__card{
   background: var(--card-color);
   border-radius: 1.2rem;
@@ -157,7 +157,7 @@ img{
   box-shadow: 0 8px 18px rgba(0,0,0,.12);
 }
 
-/* IMAGE FIX (important to prevent jumping) */
+
 .shop__img{
   width: 180px;
   height: 180px;
@@ -165,14 +165,14 @@ img{
   margin: 0 auto var(--mb-2);
 }
 
-/* NAME FIX (no jumping alignment) */
+
 .shop__name{
   font-size: 1rem;
   margin-bottom: var(--mb-1);
   min-height: 40px;
 }
 
-/* PRICE FIX */
+
 .shop__price{
   color: var(--dark-light);
   font-weight: var(--font-medium);
@@ -180,7 +180,7 @@ img{
   margin-top: auto;
 }
 
-/* BUTTON */
+
 .shop__button{
   display: inline-block;
   background: var(--dark-color);
@@ -195,8 +195,7 @@ img{
   background: #252424;
 }
 
-/*===== CART =====*/
-/* SEARCH */
+
 .nav{
     display: flex;
     justify-content: space-between;
@@ -204,14 +203,13 @@ img{
     flex-wrap: wrap;
 }
 
-/* RIGHT SIDE */
+
 .nav__right{
     display: flex;
     align-items: center;
     gap: 1rem;
 }
 
-/* SEARCH */
 .nav__search{
     display: flex;
     align-items: center;
@@ -227,7 +225,7 @@ img{
     width: 120px;
 }
 
-/* CART */
+
 .nav__cart{
     position: relative;
     font-size: 1.5rem;
@@ -249,7 +247,7 @@ img{
     justify-content: center;
 }
 
-/* HOME BUTTON */
+
 .home-btn{
     text-decoration: none;
     font-weight: 600;
@@ -318,7 +316,7 @@ img{
     transform: translateY(0);
 }
 
-/* CART BOX */
+
 .cart-box{
     width: 300px;
     background: #fff;
@@ -396,7 +394,7 @@ img{
     scroll-behavior: smooth;
 }
 
-/*===== FOOTER =====*/
+
 .footer{
   background: #ffffff;
   margin-top: 0;
@@ -461,7 +459,7 @@ img{
   margin-bottom: 1.5rem;
 }
 
-/* SUBSCRIBE BOX */
+
 .footer__subscribe{
   display: flex;
   align-items: center;
@@ -528,7 +526,7 @@ img{
   background: #f8f8f8;
 }
 
-/*===== RESPONSIVE =====*/
+
 @media screen and (max-width: 576px){
 
   .footer__container{
@@ -559,7 +557,6 @@ img{
   margin-bottom: 1.5rem;
 }
 
-/* GUHIT SA TAAS */
 .footer__title::before{
   content: "";
   position: absolute;
@@ -573,7 +570,7 @@ img{
   background: #111;
 }
 }
-/*===== RESPONSIVE =====*/
+
 @media screen and (max-width: 768px){
 
   .nav__list{
