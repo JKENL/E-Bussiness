@@ -13,11 +13,11 @@ document.querySelectorAll('.home__data, .home__image').forEach(el => {
 
 // 🔥 IMAGE SLIDER
 let images = [
-  "/assets/humble.webp",
-  "/assets/hoodie.png",
-  "/assets/hoodie1.webp",
-  "/assets/hoodie2.avif",
-  "/assets/tshirt.webp"
+  "humble.webp",
+  "hoodie.png",
+  "hoodie1.webp",
+  "hoodie2.avif",
+  "tshirt.webp"
 ];
 
 let index = 0;
